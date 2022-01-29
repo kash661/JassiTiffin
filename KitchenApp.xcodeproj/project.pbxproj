@@ -25,6 +25,9 @@
 		AE02563827A5DCBC008297C1 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02563727A5DCBC008297C1 /* Assets.swift */; };
 		AE02563B27A5DCFA008297C1 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02563A27A5DCFA008297C1 /* SignUpVC.swift */; };
 		AE02563E27A5DD57008297C1 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02563D27A5DD57008297C1 /* SignUpViewModel.swift */; };
+		AE02564227A5DF44008297C1 /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02564127A5DF44008297C1 /* Extension+UIButton.swift */; };
+		AE832B6C27A5E11400B7C44E /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE832B6B27A5E11300B7C44E /* Extension+UIImage.swift */; };
+		AE832B6F27A5E54400B7C44E /* Extenstion+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE832B6E27A5E54400B7C44E /* Extenstion+UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		AE02563727A5DCBC008297C1 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		AE02563A27A5DCFA008297C1 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		AE02563D27A5DD57008297C1 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		AE02564127A5DF44008297C1 /* Extension+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIButton.swift"; sourceTree = "<group>"; };
+		AE832B6B27A5E11300B7C44E /* Extension+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
+		AE832B6E27A5E54400B7C44E /* Extenstion+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extenstion+UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +156,7 @@
 		AE02563027A5DB42008297C1 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				AE832B6D27A5E53100B7C44E /* Extensions */,
 				AE02563127A5DB4E008297C1 /* AppCoordnitor.swift */,
 			);
 			path = Common;
@@ -204,6 +211,16 @@
 			children = (
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		AE832B6D27A5E53100B7C44E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AE832B6B27A5E11300B7C44E /* Extension+UIImage.swift */,
+				AE02564127A5DF44008297C1 /* Extension+UIButton.swift */,
+				AE832B6E27A5E54400B7C44E /* Extenstion+UIView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,9 +367,12 @@
 			files = (
 				AE0255F927A5D9EC008297C1 /* ViewController.swift in Sources */,
 				AE0255F527A5D9EC008297C1 /* AppDelegate.swift in Sources */,
+				AE832B6C27A5E11400B7C44E /* Extension+UIImage.swift in Sources */,
 				AE02563227A5DB4E008297C1 /* AppCoordnitor.swift in Sources */,
 				AE02563827A5DCBC008297C1 /* Assets.swift in Sources */,
+				AE832B6F27A5E54400B7C44E /* Extenstion+UIView.swift in Sources */,
 				AE02563B27A5DCFA008297C1 /* SignUpVC.swift in Sources */,
+				AE02564227A5DF44008297C1 /* Extension+UIButton.swift in Sources */,
 				AE0255F727A5D9EC008297C1 /* SceneDelegate.swift in Sources */,
 				AE02563E27A5DD57008297C1 /* SignUpViewModel.swift in Sources */,
 			);

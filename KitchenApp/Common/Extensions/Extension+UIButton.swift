@@ -10,9 +10,9 @@ import UIKit
 
 extension UIButton {
     
-    func midnightBlueRoundedButton() {
-        let image = UIImage(color: Asset.Colors.midnightBlue.color, size: CGSize(width: 1.0, height: 1.0))
-        let disabledColor = Asset.Colors.midnightBlue.color.withAlphaComponent(0.7)
+    func wetAshphaltBlueRoundedButton() {
+        let image = UIImage(color: Asset.Colors.wetAshphaltBlue.color, size: CGSize(width: 1.0, height: 1.0))
+        let disabledColor = Asset.Colors.wetAshphaltBlue.color.withAlphaComponent(0.7)
         let disabledImage = UIImage(color: disabledColor, size: CGSize(width: 1.0, height: 1.0))
         self.setBackgroundImage(image, for: .normal)
         self.setBackgroundImage(disabledImage, for: .disabled)
