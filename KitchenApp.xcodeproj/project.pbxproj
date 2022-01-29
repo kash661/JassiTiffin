@@ -10,12 +10,21 @@
 		AE0255F527A5D9EC008297C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0255F427A5D9EC008297C1 /* AppDelegate.swift */; };
 		AE0255F727A5D9EC008297C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0255F627A5D9EC008297C1 /* SceneDelegate.swift */; };
 		AE0255F927A5D9EC008297C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0255F827A5D9EC008297C1 /* ViewController.swift */; };
-		AE0255FC27A5D9EC008297C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0255FA27A5D9EC008297C1 /* Main.storyboard */; };
 		AE0255FE27A5D9ED008297C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0255FD27A5D9ED008297C1 /* Assets.xcassets */; };
 		AE02560127A5D9ED008297C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0255FF27A5D9ED008297C1 /* LaunchScreen.storyboard */; };
 		AE02560C27A5D9EE008297C1 /* KitchenAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02560B27A5D9EE008297C1 /* KitchenAppTests.swift */; };
 		AE02561627A5D9EE008297C1 /* KitchenAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02561527A5D9EE008297C1 /* KitchenAppUITests.swift */; };
 		AE02561827A5D9EE008297C1 /* KitchenAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02561727A5D9EE008297C1 /* KitchenAppUITestsLaunchTests.swift */; };
+		AE02562627A5DA5C008297C1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AE02562527A5DA5C008297C1 /* FirebaseAnalytics */; };
+		AE02562827A5DA5C008297C1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AE02562727A5DA5C008297C1 /* FirebaseAuth */; };
+		AE02562A27A5DA5C008297C1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AE02562927A5DA5C008297C1 /* FirebaseFirestore */; };
+		AE02562C27A5DA5C008297C1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = AE02562B27A5DA5C008297C1 /* FirebaseStorage */; };
+		AE02562E27A5DA82008297C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE02562D27A5DA82008297C1 /* GoogleService-Info.plist */; };
+		AE02563227A5DB4E008297C1 /* AppCoordnitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02563127A5DB4E008297C1 /* AppCoordnitor.swift */; };
+		AE02563527A5DC9C008297C1 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE02563427A5DC9C008297C1 /* Colors.xcassets */; };
+		AE02563827A5DCBC008297C1 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02563727A5DCBC008297C1 /* Assets.swift */; };
+		AE02563B27A5DCFA008297C1 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02563A27A5DCFA008297C1 /* SignUpVC.swift */; };
+		AE02563E27A5DD57008297C1 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02563D27A5DD57008297C1 /* SignUpViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +49,6 @@
 		AE0255F427A5D9EC008297C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE0255F627A5D9EC008297C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AE0255F827A5D9EC008297C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AE0255FB27A5D9EC008297C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE0255FD27A5D9ED008297C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE02560027A5D9ED008297C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE02560227A5D9ED008297C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,12 @@
 		AE02561127A5D9EE008297C1 /* KitchenAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KitchenAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE02561527A5D9EE008297C1 /* KitchenAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenAppUITests.swift; sourceTree = "<group>"; };
 		AE02561727A5D9EE008297C1 /* KitchenAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AE02562D27A5DA82008297C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AE02563127A5DB4E008297C1 /* AppCoordnitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordnitor.swift; sourceTree = "<group>"; };
+		AE02563427A5DC9C008297C1 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		AE02563727A5DCBC008297C1 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		AE02563A27A5DCFA008297C1 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		AE02563D27A5DD57008297C1 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE02562627A5DA5C008297C1 /* FirebaseAnalytics in Frameworks */,
+				AE02562C27A5DA5C008297C1 /* FirebaseStorage in Frameworks */,
+				AE02562827A5DA5C008297C1 /* FirebaseAuth in Frameworks */,
+				AE02562A27A5DA5C008297C1 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +97,7 @@
 		AE0255E827A5D9EC008297C1 = {
 			isa = PBXGroup;
 			children = (
+				AE02563327A5DC8D008297C1 /* Resources */,
 				AE0255F327A5D9EC008297C1 /* KitchenApp */,
 				AE02560A27A5D9EE008297C1 /* KitchenAppTests */,
 				AE02561427A5D9EE008297C1 /* KitchenAppUITests */,
@@ -99,13 +118,14 @@
 		AE0255F327A5D9EC008297C1 /* KitchenApp */ = {
 			isa = PBXGroup;
 			children = (
+				AE02563927A5DCED008297C1 /* Customer */,
+				AE02563027A5DB42008297C1 /* Common */,
 				AE0255F427A5D9EC008297C1 /* AppDelegate.swift */,
 				AE0255F627A5D9EC008297C1 /* SceneDelegate.swift */,
 				AE0255F827A5D9EC008297C1 /* ViewController.swift */,
-				AE0255FA27A5D9EC008297C1 /* Main.storyboard */,
-				AE0255FD27A5D9ED008297C1 /* Assets.xcassets */,
 				AE0255FF27A5D9ED008297C1 /* LaunchScreen.storyboard */,
 				AE02560227A5D9ED008297C1 /* Info.plist */,
+				AE02562D27A5DA82008297C1 /* GoogleService-Info.plist */,
 			);
 			path = KitchenApp;
 			sourceTree = "<group>";
@@ -127,6 +147,65 @@
 			path = KitchenAppUITests;
 			sourceTree = "<group>";
 		};
+		AE02563027A5DB42008297C1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AE02563127A5DB4E008297C1 /* AppCoordnitor.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AE02563327A5DC8D008297C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE02563627A5DCA2008297C1 /* Generated */,
+				AE0255FD27A5D9ED008297C1 /* Assets.xcassets */,
+				AE02563427A5DC9C008297C1 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AE02563627A5DCA2008297C1 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				AE02563727A5DCBC008297C1 /* Assets.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		AE02563927A5DCED008297C1 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				AE02564027A5DDB1008297C1 /* Home */,
+				AE02563F27A5DDA8008297C1 /* SignIn */,
+				AE02563C27A5DD44008297C1 /* SignUp */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		AE02563C27A5DD44008297C1 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				AE02563A27A5DCFA008297C1 /* SignUpVC.swift */,
+				AE02563D27A5DD57008297C1 /* SignUpViewModel.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		AE02563F27A5DDA8008297C1 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		AE02564027A5DDB1008297C1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +222,12 @@
 			dependencies = (
 			);
 			name = KitchenApp;
+			packageProductDependencies = (
+				AE02562527A5DA5C008297C1 /* FirebaseAnalytics */,
+				AE02562727A5DA5C008297C1 /* FirebaseAuth */,
+				AE02562927A5DA5C008297C1 /* FirebaseFirestore */,
+				AE02562B27A5DA5C008297C1 /* FirebaseStorage */,
+			);
 			productName = KitchenApp;
 			productReference = AE0255F127A5D9EC008297C1 /* KitchenApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +300,10 @@
 				Base,
 			);
 			mainGroup = AE0255E827A5D9EC008297C1;
+			packageReferences = (
+				AE02562427A5DA5C008297C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				AE02562F27A5DAC5008297C1 /* XCRemoteSwiftPackageReference "SwiftGen" */,
+			);
 			productRefGroup = AE0255F227A5D9EC008297C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,8 +321,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE02560127A5D9ED008297C1 /* LaunchScreen.storyboard in Resources */,
+				AE02563527A5DC9C008297C1 /* Colors.xcassets in Resources */,
+				AE02562E27A5DA82008297C1 /* GoogleService-Info.plist in Resources */,
 				AE0255FE27A5D9ED008297C1 /* Assets.xcassets in Resources */,
-				AE0255FC27A5D9EC008297C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +350,11 @@
 			files = (
 				AE0255F927A5D9EC008297C1 /* ViewController.swift in Sources */,
 				AE0255F527A5D9EC008297C1 /* AppDelegate.swift in Sources */,
+				AE02563227A5DB4E008297C1 /* AppCoordnitor.swift in Sources */,
+				AE02563827A5DCBC008297C1 /* Assets.swift in Sources */,
+				AE02563B27A5DCFA008297C1 /* SignUpVC.swift in Sources */,
 				AE0255F727A5D9EC008297C1 /* SceneDelegate.swift in Sources */,
+				AE02563E27A5DD57008297C1 /* SignUpViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +391,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AE0255FA27A5D9EC008297C1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE0255FB27A5D9EC008297C1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AE0255FF27A5D9ED008297C1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +530,7 @@
 				INFOPLIST_FILE = KitchenApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +558,7 @@
 				INFOPLIST_FILE = KitchenApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -604,6 +690,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE02562427A5DA5C008297C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		AE02562F27A5DAC5008297C1 /* XCRemoteSwiftPackageReference "SwiftGen" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftGen/SwiftGen.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE02562527A5DA5C008297C1 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE02562427A5DA5C008297C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		AE02562727A5DA5C008297C1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE02562427A5DA5C008297C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		AE02562927A5DA5C008297C1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE02562427A5DA5C008297C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		AE02562B27A5DA5C008297C1 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE02562427A5DA5C008297C1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AE0255E927A5D9EC008297C1 /* Project object */;
 }

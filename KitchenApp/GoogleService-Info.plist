@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1013038483432-8q7vp7u3tkvl856rbsnao6m20oul7lkm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1013038483432-8q7vp7u3tkvl856rbsnao6m20oul7lkm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCqEwYSW_F7Bt23GQzZFrJca-mrwvXIeFk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1013038483432</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.AkashDesai.KitchenApp</string>
+	<key>PROJECT_ID</key>
+	<string>jassitiffin-f928d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>jassitiffin-f928d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1013038483432:ios:bf003706d7369607be065d</string>
+</dict>
+</plist>
