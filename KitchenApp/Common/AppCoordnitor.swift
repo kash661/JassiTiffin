@@ -58,7 +58,6 @@ private extension AppCoordnitor {
         view.backgroundColor = Asset.Colors.wetAshphaltBlue.color
         
         view.addSubview(logoView)
-        logoView.alpha = 1
         
         buttonStack = UIStackView()
         buttonStack.translatesAutoresizingMaskIntoConstraints = false

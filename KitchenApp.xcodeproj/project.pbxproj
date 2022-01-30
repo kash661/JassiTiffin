@@ -24,7 +24,6 @@
 		AE02563B27A5DCFA008297C1 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02563A27A5DCFA008297C1 /* SignUpVC.swift */; };
 		AE02563E27A5DD57008297C1 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02563D27A5DD57008297C1 /* SignUpViewModel.swift */; };
 		AE02564227A5DF44008297C1 /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02564127A5DF44008297C1 /* Extension+UIButton.swift */; };
-		AE1A11C827A6281F00831B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1A11C727A6281F00831B26 /* Main.storyboard */; };
 		AE1A11CC27A62B8400831B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1A11CB27A62B8400831B26 /* LaunchScreen.storyboard */; };
 		AE832B6C27A5E11400B7C44E /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE832B6B27A5E11300B7C44E /* Extension+UIImage.swift */; };
 		AE832B6F27A5E54400B7C44E /* Extenstion+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE832B6E27A5E54400B7C44E /* Extenstion+UIView.swift */; };
@@ -65,7 +64,6 @@
 		AE02563A27A5DCFA008297C1 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		AE02563D27A5DD57008297C1 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		AE02564127A5DF44008297C1 /* Extension+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIButton.swift"; sourceTree = "<group>"; };
-		AE1A11C727A6281F00831B26 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		AE1A11CB27A62B8400831B26 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE832B6B27A5E11300B7C44E /* Extension+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
 		AE832B6E27A5E54400B7C44E /* Extenstion+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extenstion+UIView.swift"; sourceTree = "<group>"; };
@@ -124,12 +122,11 @@
 		AE0255F327A5D9EC008297C1 /* KitchenApp */ = {
 			isa = PBXGroup;
 			children = (
-				AE1A11CB27A62B8400831B26 /* LaunchScreen.storyboard */,
-				AE1A11C727A6281F00831B26 /* Main.storyboard */,
 				AE02563927A5DCED008297C1 /* Customer */,
 				AE02563027A5DB42008297C1 /* Common */,
 				AE0255F427A5D9EC008297C1 /* AppDelegate.swift */,
 				AE0255F627A5D9EC008297C1 /* SceneDelegate.swift */,
+				AE1A11CB27A62B8400831B26 /* LaunchScreen.storyboard */,
 				AE02560227A5D9ED008297C1 /* Info.plist */,
 				AE02562D27A5DA82008297C1 /* GoogleService-Info.plist */,
 			);
@@ -337,7 +334,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE1A11C827A6281F00831B26 /* Main.storyboard in Resources */,
 				AE02563527A5DC9C008297C1 /* Colors.xcassets in Resources */,
 				AE02562E27A5DA82008297C1 /* GoogleService-Info.plist in Resources */,
 				AE1A11CC27A62B8400831B26 /* LaunchScreen.storyboard in Resources */,
