@@ -46,6 +46,7 @@ class AppCoordnitor: UIViewController {
     // MARK: - ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
+        initialAnimations()
         setupView()
     }
     
@@ -104,6 +105,12 @@ private extension AppCoordnitor {
         signUpButton.wetAshphaltBlueRoundedButton()
         
         
+    }
+    
+    func initialAnimations() {
+        UIView.animate(withDuration: 0.7, delay: 0.5, usingSpringWithDamping: 6, initialSpringVelocity: 1, options: .curveEaseIn, animations: ({
+            self.logoView.frame.origin.y += 1000
+        }), completion: nil)
     }
     
 }
