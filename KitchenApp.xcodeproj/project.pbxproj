@@ -25,6 +25,9 @@
 		AE02563E27A5DD57008297C1 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02563D27A5DD57008297C1 /* SignUpViewModel.swift */; };
 		AE02564227A5DF44008297C1 /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE02564127A5DF44008297C1 /* Extension+UIButton.swift */; };
 		AE1A11CC27A62B8400831B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1A11CB27A62B8400831B26 /* LaunchScreen.storyboard */; };
+		AE1A11D327A706D600831B26 /* CustomTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1A11D227A706D600831B26 /* CustomTextFieldView.swift */; };
+		AE1A11D627A7106D00831B26 /* Util+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1A11D527A7106D00831B26 /* Util+helpers.swift */; };
+		AE1A11D827A7121200831B26 /* Extension+UIVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1A11D727A7121200831B26 /* Extension+UIVIewController.swift */; };
 		AE832B6C27A5E11400B7C44E /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE832B6B27A5E11300B7C44E /* Extension+UIImage.swift */; };
 		AE832B6F27A5E54400B7C44E /* Extenstion+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE832B6E27A5E54400B7C44E /* Extenstion+UIView.swift */; };
 /* End PBXBuildFile section */
@@ -65,6 +68,9 @@
 		AE02563D27A5DD57008297C1 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		AE02564127A5DF44008297C1 /* Extension+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIButton.swift"; sourceTree = "<group>"; };
 		AE1A11CB27A62B8400831B26 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE1A11D227A706D600831B26 /* CustomTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldView.swift; sourceTree = "<group>"; };
+		AE1A11D527A7106D00831B26 /* Util+helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Util+helpers.swift"; sourceTree = "<group>"; };
+		AE1A11D727A7121200831B26 /* Extension+UIVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIVIewController.swift"; sourceTree = "<group>"; };
 		AE832B6B27A5E11300B7C44E /* Extension+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
 		AE832B6E27A5E54400B7C44E /* Extenstion+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extenstion+UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,6 +159,8 @@
 		AE02563027A5DB42008297C1 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				AE1A11D427A7105E00831B26 /* Helpers */,
+				AE1A11D127A706BE00831B26 /* Custom Views */,
 				AE832B6D27A5E53100B7C44E /* Extensions */,
 				AE02563127A5DB4E008297C1 /* AppCoordnitor.swift */,
 			);
@@ -210,12 +218,29 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		AE1A11D127A706BE00831B26 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE1A11D227A706D600831B26 /* CustomTextFieldView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		AE1A11D427A7105E00831B26 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AE1A11D527A7106D00831B26 /* Util+helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		AE832B6D27A5E53100B7C44E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				AE832B6B27A5E11300B7C44E /* Extension+UIImage.swift */,
 				AE02564127A5DF44008297C1 /* Extension+UIButton.swift */,
 				AE832B6E27A5E54400B7C44E /* Extenstion+UIView.swift */,
+				AE1A11D727A7121200831B26 /* Extension+UIVIewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -364,10 +389,13 @@
 			files = (
 				AE0255F527A5D9EC008297C1 /* AppDelegate.swift in Sources */,
 				AE832B6C27A5E11400B7C44E /* Extension+UIImage.swift in Sources */,
+				AE1A11D627A7106D00831B26 /* Util+helpers.swift in Sources */,
 				AE02563227A5DB4E008297C1 /* AppCoordnitor.swift in Sources */,
+				AE1A11D327A706D600831B26 /* CustomTextFieldView.swift in Sources */,
 				AE02563827A5DCBC008297C1 /* Assets.swift in Sources */,
 				AE832B6F27A5E54400B7C44E /* Extenstion+UIView.swift in Sources */,
 				AE02563B27A5DCFA008297C1 /* SignUpVC.swift in Sources */,
+				AE1A11D827A7121200831B26 /* Extension+UIVIewController.swift in Sources */,
 				AE02564227A5DF44008297C1 /* Extension+UIButton.swift in Sources */,
 				AE0255F727A5D9EC008297C1 /* SceneDelegate.swift in Sources */,
 				AE02563E27A5DD57008297C1 /* SignUpViewModel.swift in Sources */,

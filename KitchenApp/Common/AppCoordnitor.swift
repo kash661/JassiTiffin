@@ -46,15 +46,20 @@ class AppCoordnitor: UIViewController {
     // MARK: - ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-        initialAnimations()
         setupView()
     }
     
+    // MARK: - ViewWillAppear
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.navigationBar.isHidden = true
+    }
 }
 
 // MARK: - SetupView
 private extension AppCoordnitor {
     func setupView() {
+        initialAnimations()
+        customBackNavButton()
         view.backgroundColor = Asset.Colors.wetAshphaltBlue.color
         
         view.addSubview(logoView)
@@ -113,6 +118,11 @@ private extension AppCoordnitor {
         }), completion: nil)
     }
     
+    func customBackNavButton() {
+        let backBarButtton = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        navigationItem.backBarButtonItem = backBarButtton
+    }
+    
 }
 private extension AppCoordnitor {
     
@@ -121,6 +131,7 @@ private extension AppCoordnitor {
     }
     
     @objc func signUpButtonTapped() {
-        
+        let signUpVC = SignUpVC()
+        self.navigationController?.pushViewController(signUpVC, animated: true)
     }
 }
