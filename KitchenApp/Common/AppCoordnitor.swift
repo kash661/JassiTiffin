@@ -46,6 +46,7 @@ class AppCoordnitor: UIViewController {
     // MARK: - ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
+        initialAnimations()
         setupView()
     }
     
@@ -57,6 +58,7 @@ private extension AppCoordnitor {
         view.backgroundColor = Asset.Colors.wetAshphaltBlue.color
         
         view.addSubview(logoView)
+        logoView.alpha = 1
         
         buttonStack = UIStackView()
         buttonStack.translatesAutoresizingMaskIntoConstraints = false
@@ -104,6 +106,12 @@ private extension AppCoordnitor {
         signUpButton.wetAshphaltBlueRoundedButton()
         
         
+    }
+    
+    func initialAnimations() {
+        UIView.animate(withDuration: 0.7, delay: 0.5, usingSpringWithDamping: 6, initialSpringVelocity: 1, options: .curveEaseIn, animations: ({
+            self.logoView.frame.origin.y += 1000
+        }), completion: nil)
     }
     
 }
