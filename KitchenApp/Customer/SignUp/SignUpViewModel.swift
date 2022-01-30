@@ -6,3 +6,15 @@
 //
 
 import Foundation
+import Firebase
+
+class SignUpViewModel {
+    
+    // MARK: - Properties
+    
+    func signUpButtonTapped() {
+        
+    }
+    
+    
+}
